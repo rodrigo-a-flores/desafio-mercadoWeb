@@ -19,8 +19,8 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.get("/", (req, res) => {
-    res.render('dashboard', { 
-        title: 'Dashboard',
+    res.render('dashboard', {
+        title: 'Rodrigo',
         products: ['banana', 'cebollas', 'pimenton', 'papas', 'lechuga', 'tomate']
     });
 });
